@@ -288,6 +288,11 @@ npm run serve
 
 ## 启动要求
 ```shell
+# 克隆项目
+git clone -b master git@github.com:ls612473/vue-admin-better.git
+# 安装依赖
+npm i --registry=http://mirrors.cloud.tencent.com/npm/
+
 # 理解大于18应该可以了
 nvm install 18.16.1 
 # 安装pnpm
@@ -296,4 +301,7 @@ npm i -g pnpm
 pnpm -v
 # 安装依赖
 pnpm install 
+
+# 本地开发 启动项目
+npm run serve
 ```
