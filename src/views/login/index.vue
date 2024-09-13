@@ -118,9 +118,9 @@
     mounted() {
       this.form.username = 'admin'
       this.form.password = '123456'
-      this.timeOutID = setTimeout(() => {
-        this.handleLogin()
-      }, 3000)
+      // this.timeOutID = setTimeout(() => {
+      //   this.handleLogin()
+      // }, 3000)
     },
     methods: {
       handlePassword() {
